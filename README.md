@@ -11,7 +11,7 @@ The main algorithm used for the recommendation engine is collaborative filtering
 ## Frontend and Backend
 * The frontend is created using html and css.
 * The backend is created using python.
-* The django framework is used to connect the backend and the frontend to create this web application.
+* The Django framework is used to connect the backend and the frontend to create this web application.
 
 ## What the files contain?
 * The main.py file cleans and preprocesses the datasets.
