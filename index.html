@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock title %}
+{% block body %}
+<div class="backgroundimage">
+<style>
+    .backgroundimage {
+     background: url("static/img/background2.jpg");
+     width: 99vw;
+     height: 95vh;
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     position: relative;
+    }
+     </style>
+     <div class="container">
+          <h1 style="font-size: 60px; font-family:Astloch; text-align: center; color:Brown">Recommend me books based on:-</h1>
+          <p style="font-size: 60px; font-family:Astloch; padding-top: 100px; text-align: center"><a href="lastread">Last book I read</a></p>
+          <p style="font-size: 60px; font-family:Astloch; padding-top: 100px; text-align: center"><a href="trending">Trending</a></p>
+     </div>
+</div>
+
+{% endblock body %}

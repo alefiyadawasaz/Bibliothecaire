@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+{% block title %}About{% endblock title %}
+{% block body %}
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+   background: url("static/img/background3.jpg");
+  background-size: cover;
+  width: 20%;
+  padding: 10px;
+  height: 100vh; /* Should be removed. Only for demonstration */
+}
+.column2 {
+  float: left;
+  font-size: 32px;
+  font-family:Astloch;
+  background: url("static/img/background3.jpg");
+  background-size: cover;
+  width: 60%;
+  padding: 10px;
+  height:100vh ; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+
+
+<div class="row">
+  <div class="column" style="background-color:	#F08080;">
+
+  </div>
+  <div class="column2" style="background-color:#bbb;">
+    <h1>Top 15 trending books:-</h1>
+    <p>{{v1}}</p>
+    <p>{{v2}}</p>
+    <p>{{v3}}</p>
+    <p>{{v4}}</p>
+    <p>{{v5}}</p>
+    <p>{{v6}}</p>
+    <p>{{v7}}</p>
+    <p>{{v8}}</p>
+    <p>{{v9}}</p>
+    <p>{{v10}}</p>
+    <p>{{v11}}</p>
+    <p>{{v12}}</p>
+    <p>{{v13}}</p>
+    <p>{{v14}}</p>
+    <p>{{v15}}</p>
+  </div>
+  <div class="column" style="background-color:	#F08080;">
+
+  </div>
+</div>
+{% endblock body %}
+
+
+
